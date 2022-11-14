@@ -1,0 +1,12 @@
+[
+    {
+        "id": "1",
+        "image": "gaming.PNG",
+        "altTag": "Trivia",
+        "title": "Trivia With Friends",
+        "anchorGithub": "https://github.com/dazacher/Trivia-With-Friends",
+        "anchorLive": "https://dazacher.github.io/Trivia-With-Friends/",
+        "description": "A fun trivia style game. Keep track of high score and try to beat it.",
+        "languages": "Utilizes jQuery, Bulma CSS, API's, HTML, SoundManager2, AJAX, JSON"
+    }
+]
