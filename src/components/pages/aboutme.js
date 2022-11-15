@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
 import "../../assets/Resume/Keanu_Resume.pdf";
 
+<div style={{backgroundColor: "#FF0000"}}>red</div>
+
+
 const aboutMe = () => {
   return (
     <div>
@@ -17,12 +20,12 @@ const aboutMe = () => {
         </Row>
         <Row>
           <Col lg={4} md={12} sm={12} className="text-center">
-            {/* <img
-              src={require("../../assets/images/IMG_2865.JPG")}
+            <img
+              src={require("../../assets/images/profilepic.jpeg")}
               alt="Profile"
               className="img-fluid thumbnail"
               id="profileimg"
-            /> */}
+            />
           </Col>
           <Col lg={8} md={12} sm={12} className="text-center">
             <p>
@@ -44,7 +47,7 @@ const aboutMe = () => {
 
         <Row>
           <Col lg={12} md={12} sm={12} className="text-center" id="icons">
-            {/* <h5>Contact me. I look forward to working with you.</h5>
+            <h5>Contact me. I look forward to working with you.</h5>
             <a href="mailto:keanurivers404@gmail.com" className="left-margin">
               <i className="fa fa-envelope fa-3x" aria-hidden="false"></i>
             </a>
@@ -64,7 +67,7 @@ const aboutMe = () => {
             >
               <i className="fab fa-github-square fa-3x"></i>
             </a>
-            <a
+            {/* <a
               href={Resume}
               rel="noopener noreferrer"
               target="_blank"

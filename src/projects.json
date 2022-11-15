@@ -2,11 +2,11 @@
     {
         "id": "1",
         "image": "gaming.PNG",
-        "altTag": "Trivia",
-        "title": "Trivia With Friends",
-        "anchorGithub": "https://github.com/dazacher/Trivia-With-Friends",
-        "anchorLive": "https://dazacher.github.io/Trivia-With-Friends/",
-        "description": "A fun trivia style game. Keep track of high score and try to beat it.",
-        "languages": "Utilizes jQuery, Bulma CSS, API's, HTML, SoundManager2, AJAX, JSON"
+        "altTag": "Cloud",
+        "title": "Gamercloud",
+        "anchorGithub": "https://github.com/Gustavo-Higuera/gamercloud",
+        "anchorLive": "https://github.com/Gustavo-Higuera/gamercloud",
+        "description": "A one stop shop for all gamers. This app allows you to find ddeals on games and get free gieaways for certain games.",
+        "languages": "Utilizes jQuery, Materalized, API's, HTML, CSS, Javascript"
     }
 ]
