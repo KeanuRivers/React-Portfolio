@@ -4,13 +4,13 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 // import NavBar from './components/Nav';
 import aboutMe from './components/pages/aboutme';
-// import Projects from './components/pages/Projects';
+import projects from './components/pages/Projects';
 // import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
-// import 'bootstrap/dist/css/bootstrap.min.css';
-import projects from './projects.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from './projects.json';
 import NavBar from './components/Nav';
 
 
