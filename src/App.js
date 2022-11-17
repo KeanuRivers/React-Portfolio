@@ -4,13 +4,13 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 // import NavBar from './components/Nav';
 import aboutMe from './components/pages/aboutme';
-import projects from './components/pages/Projects';
+import Projects from './components/pages/Projects';
 // import Footer from './components/Footer';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import 'bootstrap-css-only/css/bootstrap.min.css'; 
 import 'mdbreact/dist/css/mdb.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Projects from './projects.json';
+import projects from './projects.json';
 import NavBar from './components/Nav';
 
 
@@ -26,7 +26,7 @@ class App extends Component {
           <NavBar />
           <Switch>
             <Route exact path="/" component={aboutMe} />
-            {/* <Route exact path="/portfolio" render={(props) => <Projects {...props} projects={this.state.projects} />} /> */}
+            <Route exact path="/portfolio" render={(props) => <Projects {...props} projects={this.state.projects} />} />
           </Switch>
           {/* <Footer /> */}
         </Router>

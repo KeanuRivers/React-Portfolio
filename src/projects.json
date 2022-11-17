@@ -8,5 +8,18 @@
         "anchorLive": "https://github.com/Gustavo-Higuera/gamercloud",
         "description": "A one stop shop for all gamers. This app allows you to find ddeals on games and get free gieaways for certain games.",
         "languages": "Utilizes jQuery, Materalized, API's, HTML, CSS, Javascript"
+    },
+
+    {
+        "id": "2",
+        "image": "project2.jpeg",
+        "altTag": "Volleyball",
+        "title": "Volleyball Team Management",
+        "anchorGithub": "https://github.com/lucasz10/volleyball-team-management",
+        "anchorLive": "https://volleyball-team-management.herokuapp.com/",
+        "description": "The Volleyball Team Management allows a user to have complete access to multiple teams, verify the schdules and keep a report on thier players",
+        "languages": "Utilizes Handlebars, Bootstarp, CSS, Javascript"
+
     }
 ]
+
