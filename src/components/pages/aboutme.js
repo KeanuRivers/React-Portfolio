@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./aboutme.css";
-import "../../assets/Resume/Keanu_Resume.pdf";
+import  Resume from "../../assets/Resume/Keanu_Resume2.pdf";
 
 <div style={{backgroundColor: "#FF0000"}}>red</div>
 
@@ -67,14 +67,14 @@ const aboutMe = () => {
             >
               <i className="fab fa-github-square fa-3x"></i>
             </a>
-            {/* <a
+            <a
               href={Resume}
               rel="noopener noreferrer"
               target="_blank"
               className="left-margin"
             >
               <i className="fas fa-file fa-3x"></i>
-            </a> */}
+            </a>
             <br />
             <br />
           </Col>
